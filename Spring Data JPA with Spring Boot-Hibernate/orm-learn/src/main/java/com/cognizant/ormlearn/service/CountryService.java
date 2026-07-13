@@ -20,4 +20,35 @@ public class CountryService {
     public List<Country> getAllCountries() {
         return countryRepository.findAll();
     }
+
+    @Transactional
+    public Country getCountry(String code) {
+        return countryRepository.findById(code).orElse(null);
+    }
+
+    // Add New Country
+    @Transactional
+    public void addCountry(Country country) {
+        countryRepository.save(country);
+    }
+    @Transactional
+    public List<Country> searchCountry(String text){
+
+        return countryRepository.findByNameContaining(text);
+
+    }
+
+    @Transactional
+    public List<Country> searchCountrySorted(String text){
+
+        return countryRepository.findByNameContainingOrderByNameAsc(text);
+
+    }
+
+    @Transactional
+    public List<Country> getCountriesStartingWith(String alphabet){
+
+        return countryRepository.findByNameStartingWith(alphabet);
+
+    }
 }
