@@ -1,0 +1,84 @@
+form{
+
+    width:500px;
+
+    margin:auto;
+
+    border:1px solid #ccc;
+
+    padding:20px;
+
+    border-radius:8px;
+
+}
+
+label{
+
+    font-weight:bold;
+
+}
+
+input,
+select{
+
+    width:100%;
+
+    padding:8px;
+
+    margin-top:5px;
+
+    margin-bottom:5px;
+
+    box-sizing:border-box;
+
+}
+
+input[type="checkbox"]{
+
+    width:auto;
+
+}
+
+button{
+
+    padding:10px 20px;
+
+    cursor:pointer;
+
+}
+
+.error{
+
+    color:red;
+
+    font-size:13px;
+
+}
+
+.success{
+
+    color:green;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+/* Invalid field */
+
+.ng-invalid.ng-touched{
+
+    border:2px solid red;
+
+}
+
+/* Valid field */
+
+.ng-valid.ng-touched{
+
+    border:2px solid green;
+
+}

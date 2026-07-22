@@ -1,0 +1,44 @@
+<h1>{{ portalName }}</h1>
+
+<hr>
+
+<h2>Welcome {{ studentName | uppercase }}</h2>
+
+<p>
+  Welcome to the Student Course Portal.
+</p>
+
+<div class="card">
+
+  <p>
+    <strong>Date :</strong>
+    {{ today | date:'fullDate' }}
+  </p>
+
+  <p>
+    <strong>Fees :</strong>
+    {{ fees | currency:'INR' }}
+  </p>
+
+  <p>
+    <strong>Current GPA :</strong>
+    {{ gpa | number:'1.2-2' }}
+  </p>
+
+</div>
+
+<hr>
+
+<h3>Hands-on 3 Built-in Pipes</h3>
+
+<ul>
+
+<li>Date Pipe</li>
+
+<li>Uppercase Pipe</li>
+
+<li>Currency Pipe</li>
+
+<li>Number Pipe</li>
+
+</ul>
