@@ -1,0 +1,18 @@
+.App{
+    text-align:center;
+    font-family:Arial;
+}
+
+.light{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+    padding:8px 15px;
+}
+
+.dark{
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    padding:8px 15px;
+}

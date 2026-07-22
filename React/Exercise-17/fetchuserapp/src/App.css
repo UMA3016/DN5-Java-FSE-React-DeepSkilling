@@ -1,0 +1,22 @@
+.container{
+
+    text-align:center;
+    margin-top:40px;
+    font-family:Arial;
+
+}
+
+img{
+
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:2px solid gray;
+
+}
+
+h3{
+
+    margin-top:20px;
+
+}
