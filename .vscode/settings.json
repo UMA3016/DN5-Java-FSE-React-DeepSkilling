@@ -18,5 +18,6 @@
         "DSA/Exercise2_Search",
         "DSA/Exercise1_Inventory",
         "DSA/Exercise7_Financial"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
